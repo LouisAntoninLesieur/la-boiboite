@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.btn-change-square-color {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.color-container {
+    margin: auto;
+    display: flex;
+}
+.square-one, .square-two, .square-three {
+    height: 100px;
+    width: 100px;
+    margin: auto 2rem;
+}
+.square-one {
+    background-color: blue;
+}
+.square-two {
+    background-color: yellow;
+}
+.square-three {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
